@@ -1,0 +1,73 @@
+body 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: url('img/etoile.jpg');
+}
+
+div
+{
+    width: 100%;
+}
+
+
+.soleil 
+{
+    width: 65%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.soleil img
+{
+    width: 100%;
+}
+
+.venus, .mars, .saturne, .neptune
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mercure
+{
+    margin-top: 8%;
+}
+
+.mercure img 
+{
+    width: 50%;
+}
+
+
+.venus img
+{
+    width: 37%;
+}
+
+
+.terre img
+{
+    width: 40%;
+}
+
+
+.mars img
+{
+    width: 68%;
+}
+
+.jupiter img
+{
+    width: 45%;
+}
+
+.saturne img 
+{
+    width: 74%;
+}
+
